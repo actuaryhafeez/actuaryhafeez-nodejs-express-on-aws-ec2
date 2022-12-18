@@ -21,6 +21,13 @@ app.get('/students', (req, res) => {
         Email: 'hudebiya@gmail.com',
         Marks: 99,
         Result: 'Pass'
+    },
+    {
+        studentID: '103',
+        Name: 'Owais',
+        Email: 'owais@gmail.com',
+        Marks: 98,
+        Result: 'Pass'
     }
   ])
 })
